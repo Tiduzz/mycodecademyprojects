@@ -78,10 +78,10 @@ const mixedMessages = {
 }
 
 const logRandomMessage = () => {
-    let country = Math.floor((Math.random(mixedMessages.listOfCountries.length))*15)
-    let crime = Math.floor((Math.random(mixedMessages.listOfDisasters.length))*14)
-    let lifeform = Math.floor((Math.random(mixedMessages.listOfLifeForms.length))*18)
-    let event = Math.floor((Math.random(mixedMessages.listOfEvents.length))*17)
+    let country = Math.floor(Math.random() * mixedMessages.listOfCountries.length)
+    let crime = Math.floor(Math.random() * mixedMessages.listOfDisasters.length)
+    let lifeform = Math.floor(Math.random() * mixedMessages.listOfLifeForms.length)
+    let event = Math.floor(Math.random() * mixedMessages.listOfEvents.length)
     console.log(`The country ${mixedMessages.listOfCountries[country]}, has ${mixedMessages.listOfDisasters[crime]}, and now all ${mixedMessages.listOfLifeForms[lifeform]} ${mixedMessages.listOfEvents[event]} `)
 }
 
