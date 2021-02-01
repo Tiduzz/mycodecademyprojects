@@ -5,7 +5,7 @@ A single js script that logs a random message of global crisis
 Uses
 
 ES6
-Git and Github :octocat:
+Git and Github
 Command Line
 
 Launch
