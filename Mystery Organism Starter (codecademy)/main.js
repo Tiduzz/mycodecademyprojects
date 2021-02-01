@@ -15,16 +15,6 @@ const mockUpStrand = () => {
 
 // returns an object that contains the properties "specimenNum" and "dna"
 
-// const robotFactory = (model, mobile) => {
-//   return {
-//     model: model,
-//     mobile: mobile,
-//     beep(){
-//       console.log('Beep Boop')
-//     }
-//   }
-// }
-
 const pAequorFactory = (number, arr) => {
   return ({
     specimenNum: number,
@@ -68,8 +58,9 @@ const pAequorFactory = (number, arr) => {
   })
 } 
 
+// Creates an array instancesOfDNA, that will contain the objects created by pAequorFactory, then, pushes 30 times a random
+// generated object to the array instancesOfDNA.
 let instancesOfDNA = []
-
 for (let i = 0; i < 30; i++) {
   instancesOfDNA.push(pAequorFactory(i, mockUpStrand()))
 }
