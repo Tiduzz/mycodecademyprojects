@@ -5,7 +5,7 @@ Being the functions:
 - returnRandBase(), that returns one of the 4 dna bases (C, G, A, T);
 - mockUpStrand(), using the previous function, creates an array of 15 random dna bases.
 
-The object factory returns a object that has 2 keys and 3 functions inside it:
+The object factory returns a object that has 2 keys and 3 methods inside it:
 
 - A key with the specimen number;
 - A key with DNA array;
