@@ -9,5 +9,5 @@ Git and Github
 Command Line
 
 Launch
-With node install on you bash prompt And type $ node script.js
+With node installed, on your bash prompt type $ node script.js
 To launch, having node installed and the correct path to it, run 'node main.js'
